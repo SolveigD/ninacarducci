@@ -14,12 +14,30 @@
 	<script src="./assets/scripts.js"></script>
 	<script type="application/ld+json">
 		{
-		  "@context": "http://schema.org",
-		  "@type": "Dataset",
+		  "@context": "https://schema.org/",
+		  "@type": "Photographer",
 		  "name": "Nina Carducci",
-		  "description": "photographe",
-		  "temporalCoverage": "Lundi au Vendredi de 10 heures à 19 heures",
-		  "spatialCoverage": "68 Avenue d'Alsace Lorraine 33200 Bordeaux"
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200"
+		  },
+		  "telephone": "0556677889",
+		  "openingHoursSpecification": [
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			  ],
+			  "opens": "10:00",
+			  "closes": "19:00"
+			}
+		  ]
 		}
 	</script>
 </head>
