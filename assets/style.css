@@ -77,9 +77,15 @@ body {
 	z-index: 0;
 }
 
-.picture img {
-	width: 100%;
 
+.left img{
+	width:560px;
+	height:558px;
+}
+
+.right img{
+	width:418px;
+	height:417px;
 }
 #about-me {
 	flex: 2
